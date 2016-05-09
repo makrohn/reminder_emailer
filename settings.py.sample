@@ -1,0 +1,9 @@
+#Settings for intervals for sending emails, in days
+reminder_dates = {
+    'first_reminder':1,
+    'second_reminder':5,
+    'third_reminder':3,
+    }
+deletion_day = 8
+smtp_server ='SERVER HOSTNAME'
+from_address = 'REPLY ADDRESS'
