@@ -28,6 +28,7 @@ def send_email(name, email, time):
     msg['From'] = settings.from_address
     msg['To'] = email
     s = smtplib.SMTP(settings.smtp_server)
+    s.login(settings.username,settings.password)
     s.sendmail(
         settings.from_address,
         [email],
