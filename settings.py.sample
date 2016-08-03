@@ -7,3 +7,5 @@ reminder_dates = {
 deletion_day = 4
 smtp_server ='SMTP SERVER HERE'
 from_address = 'reply-only@YOUR DOMAIN.com'
+username='SMTP username'
+password='SMTP password'
